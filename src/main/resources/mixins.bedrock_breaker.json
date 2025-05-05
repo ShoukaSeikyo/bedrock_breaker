@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.oliviermartinez.bedrockbreaker.mixin",
+  "compatibilityLevel": "JAVA_${java_ver}",
+  "mixins": [
+    "BlockBehaviourMixin",
+    "ItemsMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

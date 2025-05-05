@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bedrock_breaker:bedrock_breaker",
+    "components": {
+      "minecraft:max_damage": 100,
+      "minecraft:custom_data": {
+        "last_layer": false,
+        "the_end": false
+      }
+    }
+  }
+}

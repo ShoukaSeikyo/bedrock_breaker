@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "${description}",
+  "authors": [
+    "Olivier \"ShoukaSeikyo\" Martinez"
+  ],
+  "contact": {
+    "homepage": "${website}",
+    "sources": "${source_url}",
+    "issues": "${issue_tracker}"
+  },
+  "license": "${license}",
+  "icon": "${icon}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ca.oliviermartinez.bedrockbreaker.BedrockBreaker"
+    ]
+  },
+${mixin_field}
+${dependencies_field}
+}
